@@ -9,7 +9,7 @@ Journal CLI Tool.
 ### Pick an item type.
 1) ✅ = Accomplishment
 2) 🚢 = Shipped it
-3) 🗑  = Trashed it
+3) 🗑 = Trashed it
 4) 🧻 = WIP
 5) 👀 = Reviewed
 6) 📚 = Learning
