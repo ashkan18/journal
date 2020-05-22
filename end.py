@@ -27,11 +27,12 @@ def dayString(day_level, desc):
     return "{:^80}".format(selection + " " + desc + " ").replace("  ", "--")
 
 if __name__ == '__main__':
+    fn = "{}/{}.md".format("days", now.strftime("%Y_%m_%d"))
+    f = open(fn, "a+")
+    os.system("cat " + fn)
     day_level = input(typeQuestion)
     anythingToAdd = input("Anything to add? \n")
     item = dayString(day_level, anythingToAdd)
-    fn = "{}/{}.md".format("days", now.strftime("%Y_%m_%d"))
-    f = open(fn, "a+")
     f.write("\n")
     f.write("# " + item)
     f.close()

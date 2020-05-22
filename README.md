@@ -1,5 +1,5 @@
 # Journal
-Journal CLI Tool
+Journal CLI Tool.
 
 ## Append to your today's journal
 ```
@@ -34,6 +34,10 @@ Standup with Highlights
 ```
 ➜  journal git:(master) ✗ ./end.py
 ## 2020-05-22
+- 📚 Python's format method
+- 👀 PR #143
+- 🚢 New release of journal app
+- 🥩 Standup with Highlights
 
 ### How was your day?
 5) 🍾 AMAZING!
@@ -44,8 +48,10 @@ Standup with Highlights
 4
 Anything to add?
 Felt productive
-
+- 📚 Python's format method
+- 👀 PR #143
+- 🚢 New release of journal app
 - 🥩 Standup with Highlights
 
-# ------------------------🍷 Pretty Decent Felt productive------------------------ 
+# ------------------------🍷 Pretty Decent Felt productive------------------------
 ```
