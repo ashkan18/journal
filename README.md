@@ -55,3 +55,6 @@ Felt productive
 
 # ------------------------🍷 Pretty Decent Felt productive------------------------
 ```
+
+# Credits
+Based on @hansencc original script.
