@@ -1,0 +1,1 @@
+from journal.commands.version import version

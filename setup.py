@@ -13,10 +13,23 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/ashkan18/journal",
     packages=setuptools.find_packages(),
+    package_data={
+        'journal': [
+                    'commands/*',
+                    'lib/*',
+                    'VERSION'
+                    ]
+      },
+    install_requires=[
+        'click~=6.7',
+        'prompt-toolkit~=1.0.15',
+        'termcolor~=1.1',
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    include_package_data = True,
 )

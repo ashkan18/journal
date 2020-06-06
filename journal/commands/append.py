@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 import datetime
-import os
+import click
 
 date_str = datetime.datetime.now().strftime("%Y_%m_%d")
 
