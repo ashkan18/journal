@@ -1,12 +1,18 @@
 import click
 
-from journal.commands.version import version
+from commands.version import version
+from commands.append import append
+from commands.end import end
 
-@click.group
+import click
+
+@click.group()
 def cli():
-  pass
+    pass
 
 cli.add_command(version)
+cli.add_command(append)
+cli.add_command(end)
 
 if __name__ == '__main__':
-  cli()
+    cli()

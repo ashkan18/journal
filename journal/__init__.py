@@ -1,6 +1,5 @@
 import os
 
-print("----->")
 from journal.cli import cli
 
 
