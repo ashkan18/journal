@@ -1,8 +1,8 @@
 import click
 
-from commands.version import version
-from commands.append import append
-from commands.end import end
+from journal.commands.version import version
+from journal.commands.append import append
+from journal.commands.end import end
 
 import click
 

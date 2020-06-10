@@ -32,7 +32,7 @@ def item_string(item_type, item_text):
     selection = typesDict[item_type]
     return "- " + selection.split(" = ")[0] + " " + item_text
 
-@click.command()
+@click.command(short_help="Append to today's journal")
 @click.option('--type', default="9", prompt=type_question, help=type_question)
 @click.option('--desc', default="", prompt="What?")
 def append(type, desc):

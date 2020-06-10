@@ -1,1 +1,0 @@
-from commands.version import version

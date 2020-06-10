@@ -24,9 +24,9 @@ def dayString(day_level, desc):
     selection = levels_dict[day_level]
     return "{:^80}".format(selection + " " + desc + " ").replace("  ", "--")
 
-@click.command()
-@click.option('--type', default="9", prompt=day_level_question, help=day_level_question)
-@click.option('--note', default="", prompt="Anything to add?")
+@click.command(short_help="End today's journal")
+@click.option('-t', default="9", prompt=day_level_question, help=day_level_question)
+@click.option('-n', default="", prompt="Anything to add?")
 def end(day_level, note):
     fn = "{}/{}.md".format("days", now.strftime("%Y_%m_%d"))
     f = open(fn, "a+")
