@@ -1,8 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: UTF-8 -*-
-
-import datetime
 import os
+import datetime
+import click
 
 date_str = datetime.datetime.now().strftime("%Y_%m_%d")
 
@@ -34,10 +32,11 @@ def item_string(item_type, item_text):
     selection = typesDict[item_type]
     return "- " + selection.split(" = ")[0] + " " + item_text
 
-if __name__ == '__main__':
-    item_type = input(type_question)
-    item_text = input("What?\n")
-    item = item_string(item_type, item_text)
+@click.command(short_help="Append to today's journal")
+@click.option('--type', default="9", prompt=type_question, help=type_question)
+@click.option('--desc', default="", prompt="What?")
+def append(type, desc):
+    item = item_string(type, desc)
     fn = "{}/{}.md".format("days", date_str)
     f = open(fn, "a+")
     f.write("\n" + item)
