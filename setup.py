@@ -4,10 +4,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="journal-ashkinas", # Replace with your own username
+    name="journalists", # Replace with your own username
     version="0.0.1",
     author="Ashkan Nasseri",
-    author_email="ashkann@spotify.com",
+    author_email="ashkan18@gmail.com",
     description="App for writing fun daily journal.",
     long_description=long_description,
     long_description_content_type="text/markdown",
