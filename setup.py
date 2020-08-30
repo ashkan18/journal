@@ -4,17 +4,17 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="journalists", # Replace with your own username
-    version="0.0.1",
+    name="journalists",
+    version="0.0.2",
     author="Ashkan Nasseri",
     author_email="ashkan18@gmail.com",
-    description="App for writing fun daily journal.",
+    description="App for writing fun daily journalists.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ashkan18/journal",
     packages=setuptools.find_packages(),
     package_data={
-        'journal': [
+        'journalists': [
                     'commands/*',
                     'lib/*',
                     'VERSION'
@@ -32,7 +32,7 @@ setuptools.setup(
     ],
     entry_points='''
         [console_scripts]
-        journal=journal:cli
+        journalists=journalists:cli
     ''',
     python_requires='>=3.6',
     include_package_data = True,
