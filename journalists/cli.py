@@ -1,8 +1,8 @@
 import click
 
-from journal.commands.version import version
-from journal.commands.append import append
-from journal.commands.end import end
+from journalists.commands.version import version
+from journalists.commands.append import append
+from journalists.commands.end import end
 
 import click
 
