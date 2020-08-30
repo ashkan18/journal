@@ -1,9 +1,23 @@
 # Journal
 Journal CLI Tool.
 
-## Append to your today's journal
+## Install
 ```
-➜  journal git:(master) ✗ ./append.py
+pip install journalists
+```
+
+## Usage
+
+### Help
+```
+journalists --help
+```
+
+
+### Append to your today's journal
+
+```
+➜  journalists append
 ## 2020_05_22
 
 ### Pick an item type.
@@ -32,7 +46,7 @@ Standup with Highlights
 
 ## End your day
 ```
-➜  journal git:(master) ✗ ./end.py
+journalists end
 ## 2020-05-22
 - 📚 Python's format method
 - 👀 PR #143
