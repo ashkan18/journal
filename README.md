@@ -1,5 +1,9 @@
-# Journal
-Journal CLI Tool.
+<p align="center" margin=0 padding=0>
+  <img src="docs/journalist.png" width=100 margin=0 padding=0/>
+</p>
+
+# Journalists
+Command-line based personal journal tool.
 
 ## Install
 ```
@@ -10,7 +14,16 @@ pip install journalists
 
 ### Help
 ```
-journalists --help
+> journalists --help
+Usage: journalists [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  append   Append to today's journal
+  end      End today's journal
+  version
 ```
 
 
