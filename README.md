@@ -2,8 +2,8 @@
   <img src="docs/journalist.png" width=100 margin=0 padding=0/>
 </p>
 
-# Journalists
-Command-line based personal journal tool.
+# Journalists [![PyPI version](https://badge.fury.io/py/journalists.svg)](https://badge.fury.io/py/journalists)
+Command-line based personal journal tool. 
 
 ## Install
 ```
