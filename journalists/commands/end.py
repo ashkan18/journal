@@ -35,4 +35,3 @@ def end(day_level, note):
     f.write("\n")
     f.write("# " + item)
     f.close()
-    os.system("cat " + fn)

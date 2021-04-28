@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="journalists",
-    version="0.0.2",
+    version="0.0.4",
     author="Ashkan Nasseri",
     author_email="ashkan18@gmail.com",
     description="App for writing fun daily journalists.",

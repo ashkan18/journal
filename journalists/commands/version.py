@@ -2,4 +2,4 @@ import click
 
 @click.command()
 def version():
-  click.echo("0.0.3")
+  click.echo("0.0.4")
