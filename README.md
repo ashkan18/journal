@@ -85,3 +85,7 @@ Felt productive
 
 # Credits
 Based on @hansencc original script.
+
+
+# License
+MIT License, see [LICENSE](LICENSE)
