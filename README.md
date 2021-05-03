@@ -37,16 +37,17 @@ Commands:
 1) ✅ = Accomplishment
 2) 🚢 = Shipped it
 3) 🗑 = Trashed it
-4) 🧻 = WIP
+4) 👷 = WIP
 5) 👀 = Reviewed
 6) 📚 = Learning
 7) 🎉 = Celebration
 8) 💡 = Idea
-9) 🥩 = Meeting
-10) 🤔 = Puzzling/Challenging
-11) 😐 = Mmmm...
-12) 💩 = Not great
-12 + 1) 🤷‍♀️ = Other
+9) 📈 = Meeting
+10) 👯 = 1:1
+11) 🤔 = Puzzling/Challenging
+12) 😐 = Mmmm...
+13) 💩 = Not great
+14) 🤷‍♀️ = Other
 9
 What?
 Standup with Highlights
